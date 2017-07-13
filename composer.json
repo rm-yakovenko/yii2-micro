@@ -1,0 +1,31 @@
+{
+    "name": "b17/yii2-micro",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "provide": {
+        "bower-asset/jquery": "*",
+        "bower-asset/jquery.inputmask": "*",
+        "bower-asset/punycode": "*",
+        "bower-asset/yii2-pjax": "*"
+    },
+    "authors": [
+        {
+            "name": "Roman Yakovenko",
+            "email": "erelus@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/codecept run"
+    },
+    "require-dev": {
+        "codeception/base": "^2.2",
+        "codeception/verify": "^0.3.3",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/specify": "^0.4.6"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
