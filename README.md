@@ -11,13 +11,13 @@ cp .env.dist .env
 ### 2. Install dependencies
 
 ```bash
-composer run test
+composer install
 ```
 
 ### Run tests
 
 ```bash
-vendor/bin/codecept run
+composer run test
 ```
 
 (c) 2017
