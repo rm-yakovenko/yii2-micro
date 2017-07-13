@@ -26,6 +26,9 @@
         "codeception/specify": "^0.4.6"
     },
     "config": {
+        "platform": {
+            "php": "5.5"
+        },
         "process-timeout": 1800
     }
 }
